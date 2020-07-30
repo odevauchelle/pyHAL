@@ -1,11 +1,11 @@
 import sys
 sys.path.append('./../')
 
-from pyHAL import get_biblio_from_HAL
+import pyHAL
 
 hal_ID = 'olivier-devauchelle'
 
-get_biblio_from_HAL( hal_ID )
+pyHAL.get_biblio_from_HAL( hal_ID )
 
 from json import load as json_load
 

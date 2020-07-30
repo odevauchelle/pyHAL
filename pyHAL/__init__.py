@@ -26,6 +26,7 @@ __copyright__ = "Copyright 2020"
 __license__ = "GPL"
 __version__ = "0.1"
 
-__all__ = ['pyHAL']
+__all__ = [ 'download.get_biblio_from_HAL', 'convert.convert' ]
 
-from .pyHAL import *
+from .download.get_biblio_from_HAL import *
+from .convert.convert import *
